@@ -10,6 +10,15 @@ and this project adheres to
 
 ### Added
 
+- [#6226](https://github.com/firecracker-microvm/firecracker/pull/6226),
+  [#6227](https://github.com/firecracker-microvm/firecracker/pull/6227),
+  [#6228](https://github.com/firecracker-microvm/firecracker/pull/6228),
+  [#6229](https://github.com/firecracker-microvm/firecracker/pull/6229): Added
+  PCIe device hotplug auto-discovery. A manual bus rescan is no longer needed
+  after hot-plugging a device. New configuration options have been added
+  (`pcie_hotplug_ports` and a `force` option for `DELETE`). See the
+  [Device Hotplugging](docs/device-hotplug.md) documentation page for details.
+
 ### Changed
 
 - [#6201](https://github.com/firecracker-microvm/firecracker/pull/6201):
